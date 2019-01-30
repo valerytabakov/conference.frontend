@@ -8,7 +8,7 @@ const NewsCard = (props) => (
       <h3>
         <Link className="App-link" to={apiRoutes.news + '/' + props.id}>{props.title}</Link>
       </h3>
-      <h5>Автор: {props.author}</h5>
+      <h5>Автор/e-mail: {props.author}</h5>
       <div className="App-delete-btn" onClick={props.deleteNewsHandler(props.id)}>
         Удалить
       </div>
