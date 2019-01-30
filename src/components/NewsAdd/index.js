@@ -89,7 +89,7 @@ class NewsAdd extends Component {
                 </label>
 
                 <label className="App-label">
-                    Автор:
+                    Автор/e-mail:
                     <input
                     className="App-input-field"
                     name="author"
