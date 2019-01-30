@@ -93,7 +93,7 @@ class App extends Component {
     return (
       <div>
         <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Это тестовое приложение Валерия Табакова на React (фронтенд) и PHP (бекенд)</h1>
         </header>
 
         <Router history={history}>
